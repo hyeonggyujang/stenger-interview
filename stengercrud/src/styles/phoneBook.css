@@ -1,0 +1,88 @@
+.phone-book {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.phone-book h1 {
+    font-size: 2em;
+}
+
+.phone-book input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.phone-book .add-contact {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.phone-book .edit-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.phone-book .edit-input-container {
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.phone-book .edit-input-container input {
+    height: 35px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.phone-book .save-contact {
+    background-color: #0056b3;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.phone-book .cancel-contact {
+    background-color: #6c757d;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.phone-book .button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.phone-book ul {
+    padding: 0;
+    width: 100%;
+}
+
+.phone-book li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.phone-book button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: blue;
+}
