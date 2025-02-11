@@ -4,6 +4,7 @@ import pool from '../db.js';
 
 async function initDb() {
     try {
+        const __dirname = path.dirname(new URL(import.meta.url).pathname);
         const sql = fs.readFileSync(
             path.join(__dirname, 'migrations', '001_create_users.sql'),
             'utf8'
